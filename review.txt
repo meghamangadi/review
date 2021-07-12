@@ -1,0 +1,32 @@
+question :4
+number=5
+rows=5
+for((i=rows; i>=1; i--))
+do
+  for((j=1; j<=i; j++))
+  do
+    echo -n " $number "
+    number=$((number - 1))
+
+  done
+  number=5
+  echo
+
+done
+
+
+
+question 5:
+
+number=1
+rows=5
+for((i=rows; i>=1; i--))
+do
+  for((j=1; j<=i; j++))
+  do
+    echo -n "$number "
+    number=$((number + 1))
+  done
+  number=5
+  echo
+done
